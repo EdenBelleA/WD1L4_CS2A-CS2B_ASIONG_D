@@ -1,0 +1,76 @@
+/* Style for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;   /* light gray-blue background */
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+/* Style for the main heading */
+h1 {
+  color: #1f3a5f;
+  margin-bottom: 16px;
+}
+
+/* Style for the second heading (inside the result box) */
+h2 {
+  color: #111;
+  margin-top: 0;
+}
+
+/* Style for all tables */
+table {
+  border-collapse: collapse;
+  background-color: white;
+}
+
+/* The first table (student list) stretches across the page */
+body > table {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* Style for the table cells and headers */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Style for the table headers only */
+th {
+  background-color: #1f3a5f;   /* dark blue header */
+  color: white;
+}
+
+/* Style for the button */
+button {
+  background-color: #1f3a5f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 9px 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Darker blue when the mouse is over the button */
+button:hover {
+  background-color: #2c5282;
+}
+
+/* The white box that holds the grade equivalent table */
+#result {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Smaller text for the result table */
+#result th,
+#result td {
+  font-size: 13px;
+  padding: 9px 12px;
+}
